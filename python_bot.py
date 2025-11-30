@@ -147,6 +147,5 @@ async def panel(ctx):
     
     # Send embed with buttons
     await ctx.send(embed=embed, view=view)
-
-# Run the bot
-bot.run('MTQ0NDY5NzcyNTg5ODU5MjI1Ng.GhIkV2.DghQXGM4qbd5SsnMtnRBKpYu3TuC87HchSJKAM')
+import os
+bot.run(os.getenv('MTQ0NDY5NzcyNTg5ODU5MjI1Ng.GhIkV2.DghQXGM4qbd5SsnMtnRBKpYu3TuC87HchSJKAM'))
